@@ -1,0 +1,29 @@
+iconst 23
+iconst 5
+irem
+top
+istore 0
+val 0
+iload 0
+i2f
+fconst 6.8
+fmul 
+top
+fneg
+top
+iconst -2    
+fdiv
+top
+fconst 56
+fneq
+top
+iconst 2
+top
+fneq
+top
+fneg
+top
+iconst 76
+iconst 79
+flt
+top
